@@ -11,7 +11,7 @@ RESET = "\033[0m"
 YELLOW = "\033[93m"
 RED = "\033[91m"
 GREY = "\033[37m"
-GREEN = "\033[92m"
+GREEN = "\033[92m" 
 
 # Unicode arrows
 UP = "↑"
@@ -20,9 +20,9 @@ STABLE = "→"
 
 # CSV log file
 LOG_FILE = "btc_price_log.csv"
-REFRESH_INTERVAL = 30  # seconds
+REFRESH_INTERVAL = 30  # seconds 
 
-# Track previous prices
+# Track previous prices 
 previous_prices = {}
 
 # Exchange APIs and JSON paths
